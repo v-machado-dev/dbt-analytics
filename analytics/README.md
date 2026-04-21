@@ -1,15 +1,26 @@
 Welcome to your new dbt project!
+# DBT Analytics Project
 
-### Using the starter project
+Personal project for learning and practicing dbt (data build tool) with DuckDB.
 
-Try running the following commands:
-- dbt run
-- dbt test
+## Tech Stack
+- dbt Core
+- DuckDB
+- Python
 
+## Project Structure
+- `models/staging` — raw data cleaning and standardization
+- `models/marts` — business logic and aggregations
+- `seeds/` — static CSV files
+- `tests/` — data quality tests
 
-### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [chat](https://community.getdbt.com/) on Slack for live discussions and support
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+## How to Run
+1. Clone this repository
+2. Install dependencies:
+   pip install dbt-core dbt-duckdb
+3. Run dbt:
+   dbt run
+
+## Learning Resources
+- [dbt Documentation](https://docs.getdbt.com)
+- [dbt DuckDB Adapter](https://github.com/duckdb/dbt-duckdb)
