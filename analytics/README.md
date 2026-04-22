@@ -1,4 +1,3 @@
-Welcome to your new dbt project!
 # DBT Analytics Project
 
 Personal project for learning and practicing dbt (data build tool) with DuckDB.
